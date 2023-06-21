@@ -1,0 +1,36 @@
+Comandos Linux para abrir un servidor postgres
+/***************************************************************************
+	sudo service postgresql -> Te enseña las opciones para iniciar el servidor
+	
+	psql -> Start sql terminal
+	
+	
+	--u alumnodb-> Opens server with alumnodb user
+	--d Database_name -> To open such database
+	--port-> port (normally 5432)
+	--host -> host (normaly localhost)
+	
+/*****************************************************************************
+	
+
+Comandos en SQL  
+/************************************************************************************
+
+	psql-> opens sql shell 
+	createdb = create database (Database_name) -> Creates a database, you need to specify name
+	dropdb --if-exist = drop database (--if-exists) (Database_name) -> Deletes a database, you need to specify name
+	pg_dump --> Dumps all the info in a database into an executable .sql
+	pg_restore --> It's a utility for restoring a PostgreSQL database from an archive created by pg_dump in one of the non-plain-text formats.
+
+
+	.\d -> to show tables
+	.\d table_name -> to show table collumns names
+	.\du -> to show users
+
+	CREATE ROLE role_name WITH LOGIN ENCRYPTED PASSWORD 'password' -> Creates un roll
+	ALTER ROLE role_name SUPERUSER -> to make the role a SUPERUSER
+	DROP ROLE role_name -> Deleted a role
+
+	\q->to quit sql terminal
+
+/**************************************************************************************

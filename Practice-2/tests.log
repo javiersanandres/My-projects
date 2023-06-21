@@ -1,0 +1,588 @@
+
+
+
+-----------------RUNNING TESTS mié 23 nov 2022 04:16:54 CET------------------
+
+
+
+-------------------Running products_stock---------------------
+spawn ./menu
+
+
+   ABRIENDO MENU
+
+
+Company Menu:
+  1.Products
+  2.Orders
+  3.Customers
+  4.Exit
+
+Enter a number that corresponds to your choice > 1
+
+Products Menu:
+  1.Stock
+  2.Find
+  3.Back
+
+Enter a number that corresponds to your choice > 1
+
+--------------------------------------------------
+Enter productcode > S10_1678
+Quantityinstock = 7933
+--------------------------------------------------
+
+
+Products Menu:
+  1.Stock
+  2.Find
+  3.Back
+
+Enter a number that corresponds to your choice > 
+--------------------------------OK
+
+3
+
+Company Menu:
+  1.Products
+  2.Orders
+  3.Customers
+  4.Exit
+
+Enter a number that corresponds to your choice > 4
+
+
+  CERRANDO MENU
+
+
+
+EXIT SUCCESS
+-------------------Running products_find----------------------
+spawn ./menu
+
+
+   ABRIENDO MENU
+
+
+Company Menu:
+  1.Products
+  2.Orders
+  3.Customers
+  4.Exit
+
+Enter a number that corresponds to your choice > 1
+
+Products Menu:
+  1.Stock
+  2.Find
+  3.Back
+
+Enter a number that corresponds to your choice > 2
+
+
+Enter productname > Harley
+
+
+Products with that name in between:
+
+S10_1678 1969 Harley Davidson Ultimate Chopper
+S10_4698 2003 Harley-Davidson Eagle Drag Bike
+S18_2625 1936 Harley Davidson El Knucklehead
+--------------------------------OK
+
+
+
+
+
+Products Menu:
+  1.Stock
+  2.Find
+  3.Back
+
+Enter a number that corresponds to your choice > 3
+
+Company Menu:
+  1.Products
+  2.Orders
+  3.Customers
+  4.Exit
+
+Enter a number that corresponds to your choice > 4
+
+
+  CERRANDO MENU
+
+
+
+EXIT SUCCESS
+--------------------Running orders_open------------------------
+spawn ./menu
+
+
+   ABRIENDO MENU
+
+
+Company Menu:
+  1.Products
+  2.Orders
+  3.Customers
+  4.Exit
+
+Enter a number that corresponds to your choice > 2
+
+Orders Menu:
+  1.Open
+  2.Range
+  3.Detail
+  4.Back
+
+Enter a number that corresponds to your choice > 1
+
+
+Ordernumbers without an assigned shippeddate:
+10167
+10248
+10260
+10262
+10334
+10401
+10407
+10414
+10420
+10421
+10422
+10423
+10424
+10425
+--------------------------------OK
+
+
+
+Orders Menu:
+  1.Open
+  2.Range
+  3.Detail
+  4.Back
+
+Enter a number that corresponds to your choice > 4
+
+Company Menu:
+  1.Products
+  2.Orders
+  3.Customers
+  4.Exit
+
+Enter a number that corresponds to your choice > 4
+
+
+  CERRANDO MENU
+
+
+
+EXIT SUCCESS
+--------------------Running orders_range-----------------------
+spawn ./menu
+
+
+   ABRIENDO MENU
+
+
+Company Menu:
+  1.Products
+  2.Orders
+  3.Customers
+  4.Exit
+
+Enter a number that corresponds to your choice > 2
+
+Orders Menu:
+  1.Open
+  2.Range
+  3.Detail
+  4.Back
+
+Enter a number that corresponds to your choice > 2
+
+
+Enter dates (YYYY-MM-DD - YYYY-MM-DD) > 2003-01-10 - 2003-04-21
+
+Orders made within those dates (Ordernumber | Orderdate | Shippeddate):
+10102 2003-01-10 2003-01-14
+10103 2003-01-29 2003-02-02
+10104 2003-01-31 2003-02-01
+10105 2003-02-11 2003-02-12
+10106 2003-02-17 2003-02-21
+10107 2003-02-24 2003-02-26
+10108 2003-03-03 2003-03-08
+10109 2003-03-10 2003-03-11
+10110 2003-03-18 2003-03-20
+10111 2003-03-25 2003-03-30
+10112 2003-03-24 2003-03-29
+10113 2003-03-26 2003-03-27
+10114 2003-04-01 2003-04-02
+10115 2003-04-04 2003-04-07
+10116 2003-04-11 2003-04-13
+10117 2003-04-16 2003-04-17
+10118 2003-04-21 2003-04-26
+--------------------------------OK
+
+
+
+
+
+Orders Menu:
+  1.Open
+  2.Range
+  3.Detail
+  4.Back
+
+Enter a number that corresponds to your choice > 4
+
+Company Menu:
+  1.Products
+  2.Orders
+  3.Customers
+  4.Exit
+
+Enter a number that corresponds to your choice > 4
+
+
+  CERRANDO MENU
+
+
+
+EXIT SUCCESS
+--------------------Running orders_detail-----------------------
+spawn ./menu
+
+
+   ABRIENDO MENU
+
+
+Company Menu:
+  1.Products
+  2.Orders
+  3.Customers
+  4.Exit
+
+Enter a number that corresponds to your choice > 2
+
+Orders Menu:
+  1.Open
+  2.Range
+  3.Detail
+  4.Back
+
+Enter a number that corresponds to your choice > 3
+
+
+Enter ordernumber > 10100
+
+Orderdate = 2003-01-06, Status = Shipped
+Total Price: 10223.83
+
+
+Products associated with that order (productnumber | quantityordered | priceeach):
+
+S24_3969 49 35.29
+S18_2248 50 55.09
+S18_1749 30 136.00
+S18_4409 22 75.46
+
+
+
+Orders Menu:
+  1.Open
+  2.Range
+  3.Detail
+  4.Back
+
+Enter a number that corresponds to your choice > 
+--------------------------------OK
+
+4
+
+Company Menu:
+  1.Products
+  2.Orders
+  3.Customers
+  4.Exit
+
+Enter a number that corresponds to your choice > 4
+
+
+  CERRANDO MENU
+
+
+
+EXIT SUCCESS
+--------------------Running customers_balance-------------------
+spawn ./menu
+
+
+   ABRIENDO MENU
+
+
+Company Menu:
+  1.Products
+  2.Orders
+  3.Customers
+  4.Exit
+
+Enter a number that corresponds to your choice > 3
+
+Customers Menu:
+  1.Find
+  2.List Products
+  3.Balance
+  4.Back
+
+Enter a number that corresponds to your choice > 3
+
+--------------------------------------------------
+Enter customer number > 141
+Balance = -104950.56
+--------------------------------OK
+
+
+--------------------------------------------------
+
+
+Customers Menu:
+  1.Find
+  2.List Products
+  3.Balance
+  4.Back
+
+Enter a number that corresponds to your choice > 4
+
+Company Menu:
+  1.Products
+  2.Orders
+  3.Customers
+  4.Exit
+
+Enter a number that corresponds to your choice > 4
+
+
+  CERRANDO MENU
+
+
+
+EXIT SUCCESS
+--------------------Running customers_find----------------------
+spawn ./menu
+
+
+   ABRIENDO MENU
+
+
+Company Menu:
+  1.Products
+  2.Orders
+  3.Customers
+  4.Exit
+
+Enter a number that corresponds to your choice > 3
+
+Customers Menu:
+  1.Find
+  2.List Products
+  3.Balance
+  4.Back
+
+Enter a number that corresponds to your choice > 1
+
+
+Enter customer name > Mary
+
+146 Saveley & Henriot, Co. Mary  Saveley
+219 Boards & Toys Co. Mary Young
+--------------------------------OK
+
+
+
+
+
+Customers Menu:
+  1.Find
+  2.List Products
+  3.Balance
+  4.Back
+
+Enter a number that corresponds to your choice > 4
+
+Company Menu:
+  1.Products
+  2.Orders
+  3.Customers
+  4.Exit
+
+Enter a number that corresponds to your choice > 4
+
+
+  CERRANDO MENU
+
+
+
+EXIT SUCCESS
+--------------------Running customers_list_products-------------
+spawn ./menu
+
+
+   ABRIENDO MENU
+
+
+Company Menu:
+  1.Products
+  2.Orders
+  3.Customers
+  4.Exit
+
+Enter a number that corresponds to your choice > 3
+
+Customers Menu:
+  1.Find
+  2.List Products
+  3.Balance
+  4.Back
+
+Enter a number that corresponds to your choice > 2
+
+
+Enter customer number > 141
+
+1969 Harley Davidson Ultimate Chopper 66
+1952 Alpine Renault 1300 50
+1996 Moto Guzzi 1100i 45
+2003 Harley-Davidson Eagle Drag Bike 56
+1972 Alfa Romeo GTA 26
+1968 Ford Mustang 20
+2001 Ferrari Enzo 20
+1958 Setra Bus 49
+2002 Suzuki XREO 21
+1969 Corvair Monza 125
+1968 Dodge Charger 59
+1969 Ford Falcon 49
+1970 Plymouth Hemi Cuda 44
+1957 Chevy Pickup 183
+1969 Dodge Charger 80
+1940 Ford Pickup Truck 54
+1993 Mazda RX-7 29
+1937 Lincoln Berline 103
+1936 Mercedes-Benz 500K Special Roadster 68
+1965 Aston Martin DB5 101
+1980s Black Hawk Helicopter 74
+1917 Grand Touring Sedan 39
+1948 Porsche 356-A Roadster 65
+1995 Honda Civic 41
+1998 Chrysler Plymouth Prowler 125
+1911 Ford Town Car 27
+1964 Mercedes Tour Bus 154
+1932 Model A Ford J-Coupe 40
+1926 Ford Fire Engine 77
+P-51-D Mustang 70
+1936 Harley Davidson El Knucklehead 36
+1928 Mercedes-Benz SSK 104
+1999 Indy 500 Monte Carlo SS 112
+1913 Ford Model T Speedster 30
+1934 Ford V8 Coupe 24
+1999 Yamaha Speed Boat 112
+18th Century Vintage Horse Carriage 29
+1903 Ford Model A 140
+1992 Ferrari 360 Spider red 308
+Collectable Wooden Train 137
+1969 Dodge Super Bee 55
+1917 Maxwell Touring Car 36
+1976 Ford Gran Torino 98
+1948 Porsche Type 356 Roadster 109
+1957 Vespa GS150 59
+1941 Chevrolet Special Deluxe Cabriolet 56
+1970 Triumph Spitfire 138
+1932 Alfa Romeo 8C2300 Spider Sport 73
+1904 Buick Runabout 123
+1939 Cadillac Limousine 56
+1957 Corvette Convertible 74
+1957 Ford Thunderbird 75
+1970 Chevy Chevelle SS 454 133
+1970 Dodge Coronet 197
+1997 BMW R 1100 S 35
+1966 Shelby Cobra 427 S/C 122
+1928 British Royal Navy Airplane 108
+1939 Chevrolet Deluxe Coupe 64
+18th century schooner 74
+1938 Cadillac V-16 Presidential Limousine 90
+1962 Volkswagen Microbus 140
+1982 Ducati 900 Monster 83
+1949 Jaguar XK 120 158
+1958 Chevy Corvette Limited Edition 245
+1900s Vintage Bi-Plane 63
+1952 Citroen-15CV 135
+1982 Lamborghini Diablo 132
+1912 Ford Model T Delivery Wagon 30
+1969 Chevrolet Camaro Z28 129
+1971 Alpine Renault 1600s 124
+1937 Horch 930V Limousine 81
+2002 Chevy Corvette 174
+1940 Ford Delivery Sedan 74
+1956 Porsche 356A Coupe 161
+Corsair F4U ( Bird Cage) 89
+1936 Mercedes Benz 500k Roadster 43
+1992 Porsche Cayenne Turbo Silver 161
+1936 Chrysler Airflow 81
+1900s Vintage Tri-Plane 96
+1961 Chevrolet Impala 69
+1980’s GM Manhattan Express 41
+1997 BMW F650 ST 23
+1982 Ducati 996 R 124
+1954 Greyhound Scenicruiser 157
+1950's Chicago Surface Lines Streetcar 150
+1996 Peterbilt 379 Stake Bed with Outrigger 80
+1928 Ford Phaeton Deluxe 89
+1974 Ducati 350 Mk3 Desmo 82
+1930 Buick Marquette Phaeton 96
+Diamond T620 Semi-Skirted Tanker 141
+1962 City of Detroit Streetcar 145
+2002 Yamaha YZR M1 40
+The Schooner Bluenose 89
+American Airlines: B767-300 112
+The Mayflower 91
+HMS Bounty 73
+America West Airlines B757-200 70
+The USS Constitution Ship 66
+1982 Camaro Z28 73
+ATA: B757-300 27
+F/A 18 Hornet 1/72 59
+The Titanic 126
+The Queen Mary 75
+American Airlines: MD-11S 79
+Boeing X-32A JSF 71
+Pont Yacht 113
+
+
+
+Customers Menu:
+--------------------------------OK
+
+
+  1.Find
+  2.List Products
+  3.Balance
+  4.Back
+
+Enter a number that corresponds to your choice > 4
+
+Company Menu:
+  1.Products
+  2.Orders
+  3.Customers
+  4.Exit
+
+Enter a number that corresponds to your choice > 4
+
+
+  CERRANDO MENU
+
+
+
+EXIT SUCCESS
